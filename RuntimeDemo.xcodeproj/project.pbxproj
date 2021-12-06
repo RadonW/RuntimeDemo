@@ -14,6 +14,8 @@
 		F8B89048275DE5B800037006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B89047275DE5B800037006 /* Assets.xcassets */; };
 		F8B8904B275DE5B800037006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B89049275DE5B800037006 /* LaunchScreen.storyboard */; };
 		F8B8904E275DE5B800037006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8904D275DE5B800037006 /* main.m */; };
+		F8B89056275DEE4400037006 /* RuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B89055275DEE4400037006 /* RuntimeUtils.m */; };
+		F8B89059275DF23900037006 /* UIViewController+RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B89058275DF23900037006 /* UIViewController+RuntimeDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		F8B8904A275DE5B800037006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B8904C275DE5B800037006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B8904D275DE5B800037006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8B89054275DEE4400037006 /* RuntimeUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeUtils.h; sourceTree = "<group>"; };
+		F8B89055275DEE4400037006 /* RuntimeUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeUtils.m; sourceTree = "<group>"; };
+		F8B89057275DF23900037006 /* UIViewController+RuntimeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RuntimeDemo.h"; sourceTree = "<group>"; };
+		F8B89058275DF23900037006 /* UIViewController+RuntimeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RuntimeDemo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				F8B89049275DE5B800037006 /* LaunchScreen.storyboard */,
 				F8B8904C275DE5B800037006 /* Info.plist */,
 				F8B8904D275DE5B800037006 /* main.m */,
+				F8B89054275DEE4400037006 /* RuntimeUtils.h */,
+				F8B89055275DEE4400037006 /* RuntimeUtils.m */,
+				F8B89057275DF23900037006 /* UIViewController+RuntimeDemo.h */,
+				F8B89058275DF23900037006 /* UIViewController+RuntimeDemo.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -146,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B89056275DEE4400037006 /* RuntimeUtils.m in Sources */,
 				F8B89043275DE5B200037006 /* ViewController.m in Sources */,
+				F8B89059275DF23900037006 /* UIViewController+RuntimeDemo.m in Sources */,
 				F8B8903D275DE5B200037006 /* AppDelegate.m in Sources */,
 				F8B8904E275DE5B800037006 /* main.m in Sources */,
 				F8B89040275DE5B200037006 /* SceneDelegate.m in Sources */,
@@ -226,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
